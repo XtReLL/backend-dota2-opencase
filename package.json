@@ -1,0 +1,21 @@
+{
+  "name": "cases-backend",
+  "version": "1.0.0",
+  "description": "Chat, LiveDrop and Steam bot NodeJs backend",
+  "main": "index.js",
+  "author": "XtReLL",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.16.4",
+    "log4js": "^4.1.0",
+    "node-redis-retry-strategy": "^1.0.9",
+    "redis": "^2.8.0",
+    "requestify": "^0.2.5",
+    "socket.io": "^2.2.0",
+    "steam-totp": "^2.1.0",
+    "steam-tradeoffer-manager": "^2.9.5",
+    "steam-user": "^4.6.0",
+    "steamcommunity": "^3.39.0"
+  }
+}
